@@ -3,3 +3,4 @@ fastapi
 schedule
 requests
 uvicorn
+gnss_tec
