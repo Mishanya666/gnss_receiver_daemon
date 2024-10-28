@@ -1,0 +1,3 @@
+paho-mqtt==1.6.1
+gnss_tec==0.1
+daemonize==2.5.0
