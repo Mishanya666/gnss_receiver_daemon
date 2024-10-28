@@ -5,3 +5,4 @@ requests
 uvicorn
 gnss_tec
 daemonize
+python-daemon
