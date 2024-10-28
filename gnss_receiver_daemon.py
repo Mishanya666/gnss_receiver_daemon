@@ -8,7 +8,7 @@ from daemonize import Daemonize
 
 broker = "broker.emqx.io"
 topic_prefix = "gnss/data/"
-data_dir = "/home/kirill/Practice/rnx_files"
+data_dir = "/home/Misha/Practice/rnx_files"
 
 class GNSSReceiverDaemon:
     def __init__(self, receiver_name):
