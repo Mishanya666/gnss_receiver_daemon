@@ -4,3 +4,4 @@ schedule
 requests
 uvicorn
 gnss_tec
+daemonize
