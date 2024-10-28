@@ -14,7 +14,7 @@ class GNSSReceiverDaemon:
     def __init__(self, receiver_name):
         self.receiver_name = receiver_name
         self.current_file_path = None
-        self.client = mqtt_client.Client(client_id=receiver_name, protocol=mqtt_client.MQTTv5)
+        self.client = mqtt_client.Client(client_id=receiver_name, protocol=mqtt_client.MQTTv5, transport="tcp")
         self.client.on_connect = self.on_connect
         self.client.on_disconnect = self.on_disconnect
         self.client.connect(broker)
