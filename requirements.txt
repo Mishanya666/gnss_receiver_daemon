@@ -1,9 +1,7 @@
-paho-mqtt
 fastapi
-schedule
-requests
 uvicorn
-gnss_tec
+requests
+schedule
 daemonize
-python-daemon
-warnings
+paho-mqtt
+gnss-tec
